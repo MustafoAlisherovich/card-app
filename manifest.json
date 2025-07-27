@@ -1,0 +1,15 @@
+{
+	"name": "Swipe Cards",
+	"short_name": "Cards",
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff",
+	"icons": [
+		{
+			"src": "images/cpg-logo.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	]
+}

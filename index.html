@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>CPG</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+
+	<header class="navbar">
+		<div class="menu-icon" id="menuToggle">&#9776;</div>
+		<div class="title">VIRTUAL CPG CARD</div>
+	</header>
+
+	<div class="sidebar-overlay" id="sidebar">
+		<div class="sidebar-content">
+			<div class="close-btn" id="closeSidebar">&times;</div>
+			<img src="./images/cpg-logo.png" alt="logo">
+			<ul class="menu">
+				<li>
+					<a href="#">
+						<img src="./images/person-fill.svg" alt="">
+						<span>Profile</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./images/person-fill-gear.svg" alt="">
+						<span>Edit Profile</span>
+					</a>
+				</li>
+			</ul>
+
+			<a href="#" class="logout">
+				<img src="./images/box-arrow-right.svg" alt="">
+				<span>Logout</span>
+			</a>
+		</div>
+	</div>
+
+
+	<div class="carousel">
+		<div class="card">
+			<img src="./images/green.png" class="card-img" alt="Green Card" />
+		</div>
+
+		<div class="card">
+			<img src="./images/blue.png" class="card-img" alt="Blue Card" />
+		</div>
+	</div>
+
+
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
