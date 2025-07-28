@@ -10,8 +10,8 @@ const filesToCache = [
 	'/images/green.png',
 	'/images/blue.png',
 	'/images/box-arrow-right.svg',
-	'/images/user.png',
-	'/images/user-edit.png',
+	'/images/user.svg',
+	'/images/user-edit.svg',
 ]
 
 self.addEventListener('install', e => {

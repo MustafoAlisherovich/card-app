@@ -34,16 +34,12 @@ html {
 	font-family: 'Montserrat Alternates', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	font-size: 15px;
 }
 
 .menu-icon {
 	font-size: 24px;
 	cursor: pointer;
-}
-
-.title {
-	font-size: 15px;
-	font-family: ;
 }
 
 .sidebar-overlay {
@@ -100,6 +96,10 @@ html {
 	background-color: white;
 	color: #000;
 	font-weight: bold;
+}
+
+.sidebar-content li.active a img {
+	color: #000;
 }
 
 .close-btn {
@@ -176,8 +176,14 @@ html {
 	gap: 10px;
 }
 
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
 .menu li a {
 	justify-content: flex-start;
+	color: #fff;
 }
 
 .menu li a img,
@@ -190,7 +196,7 @@ html {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	color: #e60073;
+	color: red;
 	text-decoration: none;
 	margin-top: 30px;
 	padding: 12px 20px;
