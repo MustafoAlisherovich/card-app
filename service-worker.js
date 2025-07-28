@@ -9,9 +9,9 @@ const filesToCache = [
 	'/images/cpg-logo.png',
 	'/images/green.png',
 	'/images/blue.png',
-	'/images/person-fill-gear.svg',
-	'/images/person-fill.svg',
 	'/images/box-arrow-right.svg',
+	'/images/user.png',
+	'/images/user-edit.png',
 ]
 
 self.addEventListener('install', e => {

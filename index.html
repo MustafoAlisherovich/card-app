@@ -12,33 +12,27 @@
 <body>
 
 	<header class="navbar">
-		<div class="menu-icon" id="menuToggle">&#9776;</div>
-		<div class="title">VIRTUAL CPG CARD</div>
+		<div class="menu-icon" id="menuToggle">
+			&#9776;
+		</div>
+		<h3 class="title">VIRTUAL CPG CARD</h3>
 	</header>
 
 	<div class="sidebar-overlay" id="sidebar">
 		<div class="sidebar-content">
 			<div class="close-btn" id="closeSidebar">&times;</div>
-			<img src="./images/cpg-logo.png" alt="logo">
+
+			<!-- LOGO Wrapper -->
+			<div class="logo-wrapper">
+				<img src="./images/cpg-logo.png" alt="logo">
+			</div>
+
 			<ul class="menu">
-				<li>
-					<a href="#">
-						<img src="./images/person-fill.svg" alt="">
-						<span>Profile</span>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="./images/person-fill-gear.svg" alt="">
-						<span>Edit Profile</span>
-					</a>
-				</li>
+				<li><a href="#"><img src="./images/user.png" alt="user"><span>Profile</span></a></li>
+				<li><a href="#"><img src="./images/user-edit.png" alt="user-edit"> <span>Edit Profile</span></a></li>
 			</ul>
 
-			<a href="#" class="logout">
-				<img src="./images/box-arrow-right.svg" alt="">
-				<span>Logout</span>
-			</a>
+			<a href="#" class="logout"><img src="./images/box-arrow-right.svg" alt="logout"> <span>Logout</span></a>
 		</div>
 	</div>
 
@@ -53,8 +47,7 @@
 		</div>
 	</div>
 
-
-
+	<div class="dots" id="dots"></div>
 
 	<script src="script.js"></script>
 </body>

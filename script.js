@@ -2,9 +2,27 @@ const carousel = document.querySelector('.carousel')
 const menuToggle = document.getElementById('menuToggle')
 const sidebar = document.getElementById('sidebar')
 const closeSidebar = document.getElementById('closeSidebar')
+const cards = carousel.querySelectorAll('.card')
+const dotsContainer = document.getElementById('dots')
 
+cards.forEach((_, i) => {
+	const dot = document.createElement('div')
+	dot.classList.add('dot')
+	if (i === 0) dot.classList.add('active')
+	dotsContainer.appendChild(dot)
+})
+
+const dots = dotsContainer.querySelectorAll('.dot')
+
+// Scroll bo‘lganda qaysi card ekranda ekanligini aniqlash
 carousel.addEventListener('scroll', () => {
-	return Math.round(carousel.scrollLeft / window.innerWidth)
+	const scrollLeft = carousel.scrollLeft
+	const cardWidth = carousel.offsetWidth
+
+	const index = Math.round(scrollLeft / cardWidth)
+
+	dots.forEach(dot => dot.classList.remove('active'))
+	if (dots[index]) dots[index].classList.add('active')
 })
 
 // Sidebar toggle
