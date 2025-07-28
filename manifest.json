@@ -1,10 +1,10 @@
 {
-	"name": "Swipe Cards",
-	"short_name": "Cards",
+	"name": "CPG Card",
+	"short_name": "CPG Card",
 	"start_url": "index.html",
 	"display": "standalone",
-	"background_color": "#ffffff",
-	"theme_color": "#ffffff",
+	"background_color": "#14262AFF",
+	"theme_color": "#14262AFF",
 	"icons": [
 		{
 			"src": "images/cpg-logo.png",
